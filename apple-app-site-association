@@ -5,11 +5,11 @@
           [
             {
             "appID" : "PGB36VEQ8D.ru.yandex.mobile.search",
-            "paths" : [ "*" ]
+            "paths" : [ "/chat/" ]
             },
             {
             "appID" : "X9DCYK36Q2.ru.yandex.mobile.search.inhouse",
-            "paths" : [ "*" ]
+            "paths" : [ "/chat/" ]
             },
             {
             "appID" : "K55RMZ8ATD.ru.yandex.mobile.search.develop",
