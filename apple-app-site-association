@@ -13,7 +13,7 @@
             },
             {
             "appID" : "K55RMZ8ATD.ru.yandex.mobile.search.develop",
-            "paths" : [ "*" ]
+            "paths" : [ "/chat/" ]
             }
         ]
     }
