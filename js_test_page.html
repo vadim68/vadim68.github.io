@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- Copyright 2021 Yandex LLC. All rights reserved. -->
+<html>
+
+<head>
+    <meta name="apple-itunes-app" content="app-id=417232489">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum=1.0,user-scalable=no">
+    <meta name="google" content="notranslate"/>
+    <style type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+        }
+    </style>
+    <title>js_test_page</title>
+</head>
+
+<body>
+		<ul>
+			<li><code>new_window</code> (<a id="new-window" href="#Foo" onClick="winRef=window.open()">new-window-text</a>)</li>
+			<li><code>close_window</code> (<a id="close-window" href="#Foo" onClick="if(!winRef.closed)winRef.close()">close-window-text</a>)</li>
+			<li><code>check_closed</code> (<a id="check-closed" href="#Foo" onClick="alert(winRef.closed ? 'closed':'open')">check-closed-text</a>)</li>
+		</ul>
+
+</body>
+
+</html>
