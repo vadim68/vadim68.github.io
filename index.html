@@ -18,12 +18,12 @@
       console.log('Entering Fullscreen mode');
       
       var elem = document.getElementById("oviHit");
-      if (elem.requestFullscreen) {
+      if (elem.webkitRequestFullscreen) {
         elem.requestFullscreen();
       }
 
       elem.addEventListener("fullscreenchange", function(e) {
-          console.log('fullscreen status: ', document.document.fullscreenEnabled);
+          console.log('fullscreen status: ', document.document.webkitFullscreenEnabled);
         }
       );
 
