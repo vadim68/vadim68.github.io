@@ -5,16 +5,18 @@
     <title>Test Page</title>
 </head>
   
-<body onload="enterFullScreen">
+<body onload="enterFullscreenMode()">
 
   <h1>Test Page</h1>
+  
+  <button onclick="enterFullscreenMode()">Enter Fullscreen</button>
 
   <video controls id="oviHit" autoplay>
     <source src="Hit_From_Alex_Ovechkin.mp4"></source>
   </video>
 
   <script>
-    window.onload = function enterFullscreenMode() {
+    function enterFullscreenMode() {
       console.log('Entering Fullscreen mode');
       
       var elem = document.getElementById("oviHit");
@@ -26,8 +28,9 @@
           console.log('fullscreen status: ', document.document.webkitFullscreenEnabled);
         }
       );
-
-    }  
+    }
+    
+//    window.onload = enterFullscreenMode;
   </script>
 
 </body>
