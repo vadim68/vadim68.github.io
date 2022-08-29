@@ -7,26 +7,28 @@
   
 <body onload="enterFullScreen">
 
-<h1>Test Page</h1>
+  <h1>Test Page</h1>
 
-<video controls id="oviHit" autoplay>
-  <source src="Hit_From_Alex_Ovechkin.mp4"></source>
-</video>
+  <video controls id="oviHit" autoplay>
+    <source src="Hit_From_Alex_Ovechkin.mp4"></source>
+  </video>
 
-<script type="text/javascript">
-  function enterFullScreen() {
-    
-    var elem = document.getElementById("oviHit");
-    if (elem.requestFullscreen) {
-      elem.requestFullscreen();
-    }
-    
-    elem.addEventListener("fullscreenchange", function(e) {
-        console.log('fullscreen status: ', document.document.fullscreenEnabled);
+  <script>
+    window.onload = function enterFullscreenMode() {
+      console.log('Entering Fullscreen mode');
+      
+      var elem = document.getElementById("oviHit");
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
       }
-    );
-  }
-</script>
+
+      elem.addEventListener("fullscreenchange", function(e) {
+          console.log('fullscreen status: ', document.document.fullscreenEnabled);
+        }
+      );
+
+    }  
+  </script>
 
 </body>
 
