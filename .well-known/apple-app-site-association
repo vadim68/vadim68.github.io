@@ -4,11 +4,11 @@
         "details": 
           [
             {
-            "appID" : "PGB36VEQ8D.ru.yandex.mobile.search",
+            "appID" : "PGB36VEQ8D.ru.yandex.mobile.search.develop",
             "paths" : [ "*" ]
             },
             {
-            "appID" : "X9DCYK36Q2.ru.yandex.mobile.search.inhouse",
+            "appID" : "X9DCYK36Q2.ru.yandex.mobile.search.develop",
             "paths" : [ "*" ]
             },
             {
