@@ -1,0 +1,20 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": 
+          [
+            {
+            "appID" : "PGB36VEQ8D.ru.yandex.mobile.search",
+            "paths" : [ "*" ]
+            },
+            {
+            "appID" : "X9DCYK36Q2.ru.yandex.mobile.search.inhouse",
+            "paths" : [ "*" ]
+            },
+            {
+            "appID" : "PGB36VEQ8D.ru.yandex.mobile.search.develop",
+            "paths" : [ "*" ]
+            }
+        ]
+    }
+}
