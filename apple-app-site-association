@@ -16,6 +16,10 @@
             "paths" : [ "*" ]
             },
             {
+            "appID" : "477EAT77S3.ru.yandex-team.dima68.UniLinks",
+            "paths" : [ "*" ]
+            },
+            {
             "appID" : "477EAT77S3.ru.yandex.mobile.dev",
             "paths" : [ "*" ]
             }
