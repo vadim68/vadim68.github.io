@@ -6,10 +6,6 @@
             {
             "appID" : "PGB36VEQ8D.ru.yandex.mobile.search.develop",
             "paths" : [ "*" ]
-            },
-            {
-            "appID" : "477EAT77S3.ru.yandex.mobile.search.develop",
-            "paths" : [ "*" ]
             }
         ]
     }
