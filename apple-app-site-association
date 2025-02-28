@@ -5,7 +5,10 @@
           [
             {
             "appID" : "PGB36VEQ8D.ru.yandex.mobile.search.develop",
-            "paths" : [ "*" ]
+            "paths" : [
+                "/no_page",
+                "/?url"
+            ]
             }
         ]
     }
