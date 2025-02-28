@@ -8,19 +8,7 @@
             "paths" : [ "*" ]
             },
             {
-            "appID" : "X9DCYK36Q2.ru.yandex.mobile.search.develop",
-            "paths" : [ "*" ]
-            },
-            {
             "appID" : "477EAT77S3.ru.yandex.mobile.search.develop",
-            "paths" : [ "*" ]
-            },
-            {
-            "appID" : "477EAT77S3.ru.yandex-team.dima68.UniLinks",
-            "paths" : [ "*" ]
-            },
-            {
-            "appID" : "477EAT77S3.ru.yandex.mobile.dev",
             "paths" : [ "*" ]
             }
         ]
