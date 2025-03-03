@@ -4,10 +4,17 @@
         "details": 
           [
             {
+            "appID" : "PGB36VEQ8D.ru.yandex.mobile.search.develop",
+            "paths" : [
+                "/control_widget/",
+                “/no_page"
+            ]
+            },
+            {
             "appID" : "477EAT77S3.ru.yandex.mobile.search.develop",
             "paths" : [
                 "/control_widget/",
-                "/?url"
+                “/no_page"
             ]
             }
         ]
